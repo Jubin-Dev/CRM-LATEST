@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:background="@drawable/wrapper_background"
+    tools:context=".map.MapsActivity2">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/backarrow"
+                android:layout_width="37sp"
+                android:layout_height="37sp"
+                android:layout_alignParentStart="true"
+                android:background="@drawable/ic_arrow_back_black_24dp" />
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+   <android.support.v7.widget.CardView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       map:cardBackgroundColor="@color/white"
+       android:foreground="?android:attr/selectableItemBackground"
+       map:cardCornerRadius="3dp"
+       map:cardElevation="4dp">
+    <fragment
+        android:id="@+id/place_autocomplete_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment">
+    </fragment>
+   </android.support.v7.widget.CardView>
+   <android.support.v7.widget.CardView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       map:cardBackgroundColor="@color/white"
+       android:foreground="?android:attr/selectableItemBackground"
+       map:cardCornerRadius="3dp"
+       map:cardElevation="4dp">
+    <fragment
+    android:id="@+id/mapfragment"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.chand.crm.map.MapsActivity2"
+        map:cameraTargetLat="-33.796923"
+        map:cameraTargetLng="150.922433"
+        android:layout_gravity="bottom|end">
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/mycurrentlocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:layout_margin="@dimen/fab_margin"
+            map:srcCompat="@drawable/ic_radio_button_checked_white_24dp" />
+    </fragment>
+   </android.support.v7.widget.CardView>
+
+</LinearLayout>

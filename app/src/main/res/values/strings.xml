@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">CRM</string>
+    <string name="prompt_email">USER ID</string>
+    <string name="prompt_password">PASSWORD</string>
+    <string name="action_sign_in">LOGIN</string>
+    <string name="title_activity_login111">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This UserID is invalid</string>
+    <string name="error_invalid_pass">This Password Contains invalid Character</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is mandatory</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="share_text">I’m inviting you to install CRM Marketting mobile based App.\nPlease download the app and register</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."</string>
+    <string name="title_activity_main__home_">Main_Home_Activity</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="normal_map">Default</string>
+    <string name="hybrid_map">Hybrid map</string>
+    <string name="satellite_map">Satellite map</string>
+    <string name="terrain_map">Terrain map</string>
+    <string name="title_activity_maps2">Map</string>
+    <string name="edit">Edit</string>
+    <string name="search_title">Contacts</string>
+
+    <string name="delete">Delete</string>
+    <string name="reset">Reset</string>
+    <string name="type">Type of Application*</string>
+    <string name="save">Save</string>
+    <string name="placeof">Is your Place of Birth out of India?* </string>
+    <string name="status">Marital Status*</string>
+    <string name="back">Back</string>
+    <string name="employmet">Employment Type*</string>
+    <string name="next">Next</string>
+    <string name="select">Select</string>
+    <string name="saving">SUBMIT</string>
+    <string name="mapapikey">AIzaSyCIljxYfhobHliumFRefnBFvtV_OPz_xtw</string>
+    <string name="title_activity_tabbed">TabbedActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="font_fontFamily_medium">sans-serif-medium</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

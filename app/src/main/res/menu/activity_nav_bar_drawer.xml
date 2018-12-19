@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homepage"
+            android:icon="@drawable/homepahe"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_addcustomer"
+            android:icon="@drawable/ic_person_add_black_24dp"
+            android:title="Add Customer" />
+        <item
+            android:id="@+id/contacts_menu"
+            android:icon="@drawable/ic_phone_black_48dp"
+            android:title="Contacts" />
+
+        <item
+            android:id="@+id/nav_alerts"
+            android:icon="@drawable/ic_notifications_none_black_48dp"
+            android:title="Alert" />
+
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_marketing"
+                android:icon="@drawable/ic_domain_black_48dp"
+                android:title="Marketing" />
+
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_assignment_black_48dp"
+                android:title="About"/>
+
+
+            <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_person_outline_black_48dp"
+            android:title="Log Out"/>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share_black_48dp"
+                android:title="Share" />
+        </menu>
+    </item>
+
+</menu>

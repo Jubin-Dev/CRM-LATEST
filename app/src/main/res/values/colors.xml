@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#2b47f9</color>
+    <color name="colorAccents">#ff548f</color>
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="background">#FFFFFF</color>
+    <color name="t_background">#467fc0</color>
+    <color name="view_line">#d6d1cd</color>
+    <color name="text_hint">#6d6d6b</color>
+    <color name="buttons_main">#ffbd00</color>
+    <color name="Buttonpressed">#c3e5c3</color>
+    <color name="num_color">#34ed23</color>
+    <color name="num_color1">#ff0000</color>
+    <color name="cat1_color">#416bc0</color>
+    <color name="cat1_color_disable">#c6d5f4</color>
+    <color name="cat2_color">#e82b12</color>
+    <color name="cat2_color_disable">#d19f98</color>
+    <color name="cat3_color">#fb9401</color>
+    <color name="cat3_color_disable">#efd2a7</color>
+    <color name="cat4_color">#9a0f6e</color>
+    <color name="cat4_color_disable">#ceabc3</color>
+    <color name="cat5_color">#0d7b0d</color>
+    <color name="cat5_color_disable">#c3e5c3</color>
+    <color name="seq_1">#cb297b</color>
+    <color name="seq_2">#ff9300</color>
+    <color name="seq_3">#0076ba</color>
+    <color name="chuck_color">#5aa342</color>
+    <color name="digit">#cb297b</color>
+    <color name="odd_char">#ff9300</color>
+    <color name="even_char">#0076ba</color>
+    <color name="background_black">#000000</color>
+    <color name="htopcolor">#4c4c4a</color>
+    <color name="topactionsbar">#FFB001FB</color>
+    <color name="transrecycler">#BA68C8</color>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="3dp"
+    app:contentPadding="4dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:id="@+id/card_view"
+    android:layout_margin="5dp"
+    android:orientation="horizontal"
+    android:foreground="?selectableItemBackground"
+    android:background="@drawable/shapes"
+    app:cardBackgroundColor="@android:color/holo_blue_dark">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/optionmenu"
+            android:layout_width="37sp"
+            android:layout_height="37sp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/ic_more_vert_black_48dp"
+            android:scaleType="fitEnd"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/item_title"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:layout_marginTop="45dp"
+            android:textSize="30sp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/item_detail"
+            android:layout_width="266dp"
+            android:layout_height="102dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="97dp"
+            android:layout_marginBottom="74dp"
+            android:textColor="@color/white"/>
+
+
+        <Button
+            android:id="@+id/location"
+            android:layout_width="45dp"
+            android:layout_height="40dp"
+            android:layout_alignTop="@+id/addtoEvent"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="71dp"
+            android:background="@drawable/placeholder" />
+
+        <Button
+            android:id="@+id/addtoEvent"
+            android:layout_width="41dp"
+            android:layout_height="37dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="13dp"
+            android:background="@drawable/bookmark" />
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

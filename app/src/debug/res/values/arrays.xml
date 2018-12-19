@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name='application_type'>
+        <item>Application Type</item>
+        <item>Normal</item>
+        <item>Tatkal</item>
+        <item>P-type</item>
+    </string-array>
+    <string-array name='married_status'>
+        <item>Marital Status</item>
+        <item>Single</item>
+        <item>Married</item>
+        <item>Divorced</item>
+        <item>Widow/Widower</item>
+        <item>Separated</item>
+    </string-array>
+    <string-array name='employment_type'>
+        <item>Employment Type</item>
+        <item>Government</item>
+        <item>Homemaker</item>
+        <item>Not employed</item>
+        <item>Others</item>
+        <item>Owners, Partners Directors of companies which are members of CII,FICCI and ASSOCHAM </item>
+        <item>PSU</item>
+        <item>Retired Government Servant</item>
+        <item>Retired-Private Service</item>
+    </string-array>
+
+</resources>
+
+
