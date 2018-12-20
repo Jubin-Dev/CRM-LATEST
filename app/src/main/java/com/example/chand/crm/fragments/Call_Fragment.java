@@ -113,8 +113,8 @@ public class Call_Fragment extends Fragment implements CallRvAdapterInterface, I
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
-        mIFragmentListener = (IFragmentListener) context;
-        mIFragmentListener.addISearch(Call_Fragment.this);
+//        mIFragmentListener = (IFragmentListener) context;
+//        mIFragmentListener.addISearch(Call_Fragment.this);
     }
 
     @Override

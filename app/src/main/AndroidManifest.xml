@@ -32,6 +32,12 @@
             android:name=".activities.Splash"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
 
         </activity>
         <activity
@@ -39,8 +45,8 @@
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
 
-
         </activity>
+
         <activity
             android:name=".activities.Login_Activity"
             android:screenOrientation="portrait"
@@ -61,14 +67,12 @@
             android:name=".map.MapsActivity2"
             android:label="@string/title_activity_maps2">
 
+
+
         </activity>
 
         <activity android:name=".activities.ContactMain">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
 
 
 

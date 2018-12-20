@@ -79,8 +79,8 @@ public class Contacts_Fragment extends Fragment implements ContactsRvAdapterInte
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
-        mIFragmentListener = (IFragmentListener) context;
-        mIFragmentListener.addISearch(Contacts_Fragment.this);
+//        mIFragmentListener = (IFragmentListener) context;
+//        mIFragmentListener.addISearch(Contacts_Fragment.this);
     }
 
     @Override

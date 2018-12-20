@@ -139,8 +139,8 @@ public class ContactMain extends AppCompatActivity implements SearchView.OnQuery
                     break;
                 case 1: iSearch.get(fragIndex).onTextQuery(newText);
                     break;
-//                case 2: iSearch.get(fragIndex).onTextQuery(newText);
-//                    break;
+                case 2: iSearch.get(fragIndex).onTextQuery(newText);
+                    break;
             }
 //            Toast.makeText(getApplicationContext(), String.valueOf(fragIndex), Toast.LENGTH_LONG).show();
 

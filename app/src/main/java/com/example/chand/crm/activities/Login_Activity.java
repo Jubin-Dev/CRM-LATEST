@@ -20,6 +20,7 @@ import android.widget.Toast;
 
 import com.example.chand.crm.fragments.Home_Fragment;
 import com.example.chand.crm.R;
+import com.example.chand.crm.navigation.Navigation;
 
 public class Login_Activity extends AppCompatActivity implements TextWatcher{
     private TextInputLayout inputLayoutUid, inputLayoutPassword;
@@ -202,7 +203,7 @@ public class Login_Activity extends AppCompatActivity implements TextWatcher{
             }
     public void onLoginSuccess() {
         button.setEnabled(true);
-        Intent i = new Intent(Login_Activity.this , Home_Fragment.class);
+        Intent i = new Intent(Login_Activity.this , Navigation.class);
         startActivity(i);
         finish();
     }

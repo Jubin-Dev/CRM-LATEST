@@ -22,6 +22,7 @@ import com.example.chand.crm.activities.NoConnection;
 import com.example.chand.crm.forms.Main_forms;
 import com.example.chand.crm.fragments.Home_Fragment;
 import com.example.chand.crm.R;
+import com.example.chand.crm.map.MapsActivity2;
 
 
 public class Navigation extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
@@ -176,6 +177,9 @@ public class Navigation extends AppCompatActivity implements NavigationView.OnNa
             startActivity(i);
         } else if(id == R.id.contacts_menu) {
             Intent intent = new Intent(Navigation.this, ContactMain.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_location){
+            Intent intent = new Intent(Navigation.this, MapsActivity2.class);
             startActivity(intent);
         }
         drawerLayout.closeDrawer(GravityCompat.START);

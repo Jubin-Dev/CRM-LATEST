@@ -28,6 +28,10 @@
     <item android:title="">
         <menu>
             <item
+                android:id="@+id/nav_location"
+                android:icon="@drawable/placeholder"
+                android:title="Location" />
+            <item
                 android:id="@+id/nav_marketing"
                 android:icon="@drawable/ic_domain_black_48dp"
                 android:title="Marketing" />

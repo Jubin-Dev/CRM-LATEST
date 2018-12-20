@@ -8,6 +8,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 import com.example.chand.crm.fragments.Call_Fragment;
 import com.example.chand.crm.fragments.Contacts_Fragment;
 import com.example.chand.crm.fragments.Fav_Fragment;
+import com.example.chand.crm.fragments.Task_Fragment;
 
 
 public class HomePagerAdapter extends FragmentPagerAdapter {
@@ -18,7 +19,7 @@ public class HomePagerAdapter extends FragmentPagerAdapter {
       "Call","Tasks","Events"
     };
     private final Fragment[] PAGES = new Fragment[]{
-      new Call_Fragment(),new Contacts_Fragment(),new Fav_Fragment()
+      new Call_Fragment(),new Task_Fragment(),new Fav_Fragment()
     };
 
 
